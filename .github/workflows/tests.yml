@@ -20,7 +20,6 @@ jobs:
       matrix:
         tag:
           - general
-          - harbor
     steps:
       - name: cleanup preinstalled software
         shell: bash
